@@ -1,0 +1,148 @@
+.text-dark {
+  color: rebeccapurple;
+}
+
+.clone-1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #eaf27c;
+  top: 50px;
+  left: 0;
+  z-index: -1;
+  animation-name: mydiv;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+}
+
+.clone-2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ce8964;
+  top: 50px;
+  right: 0;
+  z-index: -1;
+  animation-name: mydiv;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+}
+
+.clone-3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #7bb2d9;
+  right: 50px;
+  bottom: 0;
+  z-index: -1;
+  animation-name: mydiv;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+}
+
+.contaner {
+  height: 415px;
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  animation-name: myform;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+}
+
+.main-form {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.form-left {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("./5f51151c3b86bdef8bdfccb5_webflow-website-design-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-head {
+  color: #9067c6;
+}
+
+.main-navbar {
+  background-color: #242038;
+}
+
+.main-button {
+  background-color: #9067c6;
+  color: white;
+  font-weight: bold;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-right {
+  width: 50%;
+  height: 100%;
+}
+
+.signup-btn {
+  bottom: 0;
+  width: 100%;
+  border-radius: 0;
+}
+
+@keyframes myform {
+  0% {
+    width: 55%;
+  }
+  25% {
+    width: 70%;
+  }
+  50% {
+    width: 85%;
+  }
+  75% {
+    width: 95%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes mydiv {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
